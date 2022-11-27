@@ -1,0 +1,29 @@
+{
+  "name": "iungo-workspace-samples",
+  "version": "1.0.0",
+  "description": "Iungo Phone with Google Apps Script.",
+  "license": "MIT",
+  "private": true,
+  "author": "Daniel Paixao",
+  "keywords": [
+    "G Suite",
+    "Apps Script",
+    "Calendar",
+    "Drive",
+    "Sheets",
+    "Slides",
+    "API"
+  ],
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-plugin-googleappsscript": "1.0.4"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.gs",
+    "fix": "./node_modules/.bin/eslint **/*.gs --fix --quiet"
+  },
+  "eslintIgnore": [
+    "**/node_modules/**"
+  ]
+}
